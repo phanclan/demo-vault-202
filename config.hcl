@@ -1,6 +1,6 @@
 # Use the file storage - this will write encrypted data to disk.
 storage "file" {
-  path = "/workstation/vault/data"
+  path = "/tmp/workstation/vault/data"
 }
 
 listener "tcp" {
